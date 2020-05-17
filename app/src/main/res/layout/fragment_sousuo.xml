@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="大家都在搜:"
+        android:layout_weight="9"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/sousuo"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/sousuo"
+        android:background="@drawable/bg_sousuo"
+        />
+    <ImageView
+        android:src="@drawable/shezhi"
+        android:id="@+id/shezhi"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_alignParentRight="true"
+        android:layout_height="match_parent" />
+</LinearLayout>

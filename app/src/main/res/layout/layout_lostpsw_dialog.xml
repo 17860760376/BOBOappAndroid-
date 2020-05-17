@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_phonelogin"
+        android:textColor="#000"
+        android:text="手机号验证登陆"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#000"/>
+    <TextView
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_findpsw"
+        android:text="找回密码"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"/>
+
+</LinearLayout>

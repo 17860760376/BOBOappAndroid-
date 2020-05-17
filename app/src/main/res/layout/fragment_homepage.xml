@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+        <!-- TODO 这里是头部，主要有搜索框，还有设置按钮-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/upsideofhome"
+            />
+        <!--TODO 这里是一个recyclerview，其中第一条是一个横向滚动的广告栏-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/release_dynamic"/>
+</LinearLayout>
